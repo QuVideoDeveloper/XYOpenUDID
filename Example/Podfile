@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XYOpenUDID_Example' do
+  pod 'XYOpenUDID', :path => '../'
+
+  target 'XYOpenUDID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
